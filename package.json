@@ -1,0 +1,21 @@
+{
+  "name": "practica-web-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "SerLarMan",
+  "description": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "scrape": "node src/scraper.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.17.2",
+    "puppeteer": "^24.16.2"
+  }
+}
