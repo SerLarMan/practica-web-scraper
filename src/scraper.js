@@ -100,6 +100,9 @@ const scrapeAllProducts = async () => {
     await browser.close();
   } catch (error) {
     console.error("Error opening browser:", error);
+  } finally {
+    console.log("Browser closed");
+    await browser.close();
   }
 
   try {
