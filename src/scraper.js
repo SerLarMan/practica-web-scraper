@@ -74,7 +74,7 @@ const scrapeAllProducts = async () => {
 
       products = products.concat(items);
 
-      /* const nextButton = await page.$(
+      const nextButton = await page.$(
         "a.s-pagination-next:not(.s-pagination-disabled)"
       );
 
@@ -85,7 +85,7 @@ const scrapeAllProducts = async () => {
         ]);
       } else {
         hasNextPage = false;
-      } */
+      }
       hasNextPage = false;
     }
 
